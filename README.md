@@ -37,11 +37,4 @@ Procure pelas seguintes variáveis no código e substitua-as no momento do dispa
 *   **Instituição:** Estácio - Recife, PE
 
 ---
-
-## 📞 Contato
-Para dúvidas sobre a pesquisa ou sobre este template:
-*   [WhatsApp](https://wa.me/5581982274568)
-*   [Instagram @odontobymarya](https://www.instagram.com/odontobymarya/)
-
----
 *© 2026 Estácio Do Recife. Todos direitos reservados.*
