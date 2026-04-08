@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    body, table, td, a { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+    table, td { mso-table-lspace:0pt; mso-table-rspace:0pt; }
+    img { -ms-interpolation-mode:bicubic; border:0; outline:none; text-decoration:none; }
+    body { margin:0; padding:0; background-color:#faf1f3; }
+    a { color:inherit; }
+    @media only screen and (max-width:620px) {
+      .email-container { width:100% !important; }
+      .mobile-pad { padding-left:20px !important; padding-right:20px !important; }
+      .mobile-heading { font-size:26px !important; }
+      .mobile-sub { font-size:15px !important; }
+      .profile-img { width:200px !important; max-width:200px !important; }
+    }
+  </style>
+</head>
+<body style="margin:0;padding:0;background-color:#faf1f3;">
+
+  <!-- Wrapper externo -->
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#faf1f3;">
+    <tr>
+      <td align="center" style="padding:32px 16px;">
+
+        <!-- Container do email -->
+        <table class="email-container" width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;width:100%;background-color:#fff8f8;border-radius:16px;">
+
+          <!-- HEADER -->
+          <tr>
+            <td style="background-color:#faf1f3;padding:24px 32px;border-radius:0 0 48px 48px;">
+              <img src="https://cdn.portal.estacio.br/logotipo_marca_estacio_preto_HOME_d4bc9da518_ed6850a937.svg"
+                   alt="Estacio" width="120" height="40"
+                   style="display:block;height:auto;"/>
+            </td>
+          </tr>
+
+          <!-- MAIN -->
+          <tr>
+            <td class="mobile-pad" align="center" style="padding:48px 40px 0;">
+
+              <!-- Icone dente -->
+              <div style="display:inline-block;background-color:rgba(248,200,220,0.35);border-radius:9999px;padding:18px;margin-bottom:24px;">
+                <span style="font-size:44px;line-height:1;display:block;">&#129463;</span>
+              </div>
+
+              <!-- Heading -->
+              <h1 class="mobile-heading"
+                  style="font-family:'Plus Jakarta Sans',Georgia,serif;font-size:34px;font-weight:800;color:#1e1b1c;letter-spacing:-0.5px;line-height:1.25;margin:0 0 18px;text-align:center;">
+                Ola, {{nome}},<br/>
+                Aqui esta a cópia do seu TCLE e TLE.
+              </h1>
+
+              <!-- Subtitulo -->
+              <p class="mobile-sub"
+                 style="font-family:'Manrope',Arial,sans-serif;font-size:17px;color:#4f4448;line-height:1.75;margin:0 auto 40px;max-width:440px;text-align:center;">
+                Agradecemos sua participação na pesquisa de Iniciação Científica, com base na relação da Maloclusão  Dentária e Hábitos Deletérios em Crianças e Adolescentes, coordenada pela Dra. Maria Coutinho, professora na instituição Estácio, e Cirurgiã- Dentista. Abaixo, você encontrará o link para download do seu TCLE e TLE.
+              </p>
+
+              <!-- Botao CTA -->
+              <table cellpadding="0" cellspacing="0" border="0" style="margin:0 auto 56px;">
+                <tr>
+                  <td align="center" style="background-color:#795465;border-radius:9999px;">
+                    <a href="{{link_tcle}}"
+                       style="display:inline-block;padding:18px 38px;color:#ffffff;font-family:'Plus Jakarta Sans',Georgia,serif;font-weight:700;font-size:17px;text-decoration:none;white-space:nowrap;border-radius:9999px;">
+                      Baixar TCLE&nbsp;&#8595;
+                    </a>
+                  </td>
+                  <td width="20" style="width: 20px;">&nbsp;</td>
+                  <td align="center" style="background-color:#795465;border-radius:9999px;">
+                    <a href="{{link_tle}}"
+                       style="display:inline-block;padding:18px 38px;color:#ffffff;font-family:'Plus Jakarta Sans',Georgia,serif;font-weight:700;font-size:17px;text-decoration:none;white-space:nowrap;border-radius:9999px;">
+                      Baixar TLE&nbsp;&#8595;
+                    </a>
+                  </td>
+                </tr>
+              </table>
+
+          <!-- Dica de Higiene Bucal -->
+          <tr>
+            <td class="mobile-pad" style="padding:0 40px 56px;">
+              <div style="background-color:#faf1f3;border-radius:48px 16px 48px 16px;padding:28px 32px;text-align:left;">
+                <h3 style="font-family:'Plus Jakarta Sans',Georgia,serif;font-weight:700;font-size:19px;color:#795465;margin:0 0 10px;">
+                  Sobre a Pesquisa:
+                </h3>
+                <p style="font-family:'Manrope',Arial,sans-serif;font-size:14px;color:#4f4448;margin:0;line-height:1.75;">
+                   A iniciação científica busca entender como certos comportamentos do dia a dia podem afetar o crescimento e o alinhamento dos dentes e da face.
+Por isso, identificar e tratar esses hábitos precocemente é fundamental. Com acompanhamento odontológico adequado, é possível orientar a criança e a família, prevenindo problemas futuros e promovendo um desenvolvimento saudável do sorriso.
+                </p>
+              </div>
+            </td>
+          </tr>
+
+          <!-- ARCO SUPERIOR branco para rosa -->
+          <tr>
+            <td style="background-color:#fff8f8;padding:0;line-height:0;font-size:0;">
+              <div style="background-color:#ffd1dc;height:50px;border-radius:200px 200px 0 0;line-height:0;font-size:0;">&nbsp;</div>
+            </td>
+          </tr>
+
+          <!-- SECAO ROSA - PERFIL -->
+          <tr>
+            <td style="background-color:#ffd1dc;padding:16px 32px 56px;text-align:center;">
+
+              <img class="profile-img"
+                   src="https://i.imgur.com/qdG3RuA.png"
+                   alt="Marya Eduarda"
+                   width="240"
+                   style="display:block;width:400px;max-width:100%;height:auto;margin:0 auto 20px;border-bottom:2px solid #3a1e2b;"/>
+
+              <h4 style="font-family:'Plus Jakarta Sans',Georgia,serif;font-weight:700;font-size:22px;color:#2d141c;margin:0 0 4px;">
+                Marya Eduarda
+                <span style="display:inline-block;background-color:#644955;color:#ffffff;border-radius:9999px;width:20px;height:20px;font-size:11px;line-height:20px;text-align:center;vertical-align:middle;margin-left:6px;font-weight:700;">&#10003;</span>
+              </h4>
+
+              <p style="font-family:'Manrope',Arial,sans-serif;color:#795465;font-weight:600;font-size:14px;margin:0 0 8px;">
+                Estudante de Odontologia
+              </p>
+
+              <p style="font-family:'Manrope',Arial,sans-serif;color:#5e3e47;font-size:13px;font-weight:500;margin:0;">
+                Pesquisadora Científica
+              </p>
+              <p style="font-family:'Manrope',Arial,sans-serif;color:#5e3e47;font-size:13px;font-weight:500;margin:0;">
+                Coordenadora: Dra. Mariana Coutinho
+              </p>
+
+            </td>
+          </tr>
+
+          <!-- ARCO INFERIOR rosa para branco -->
+          <tr>
+            <td style="background-color:#fff8f8;padding:0;line-height:0;font-size:0;">
+              <div style="background-color:#ffd1dc;height:50px;border-radius:0 0 200px 200px;line-height:0;font-size:0;">&nbsp;</div>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td class="mobile-pad" style="padding:56px 40px 16px;">
+              <div style="background-color:#faf1f3;border-radius:48px 16px 48px 16px;padding:28px 32px;text-align:left;">
+                <h3 style="font-family:'Plus Jakarta Sans',Georgia,serif;font-weight:700;font-size:19px;color:#795465;margin:0 0 10px;">
+                  Dica de Higiene Bucal:
+                </h3>
+                <p style="font-family:'Manrope',Arial,sans-serif;font-size:14px;color:#4f4448;margin:0;line-height:1.75;">
+                   Uma dica importante é observar e tentar evitar hábitos como chupar dedo, usar chupeta por muito tempo ou respirar pela boca. Caso algum desses hábitos esteja presente, procure um dentista o quanto antes, pois a orientação precoce ajuda a prevenir problemas no alinhamento dos dentes e no desenvolvimento da face.
+                </p>
+              </div>
+            </td>
+          </tr>
+
+          <!-- FOOTER -->
+          <tr>
+            <td style="padding:48px 0 0;">
+              <div style="background-color:#f5eced;border-radius:48px 48px 0 0;padding:40px 48px;text-align:center;">
+
+                <!-- Icones sociais -->
+                <table cellpadding="0" cellspacing="0" border="0" style="margin:0 auto 20px;">
+                  <tr>
+
+                    <!-- WhatsApp: circulo rosa escuro + icone branco linha via icons8 CDN -->
+                    <td style="padding:0 10px;">
+                      <a href="https://wa.me/5581982274568" target="_blank"
+                         style="display:inline-block;width:48px;height:48px;background-color:#795465;border-radius:9999px;text-decoration:none;">
+                        <img src="https://img.icons8.com/ios/50/ffffff/whatsapp--v1.png"
+                             alt="WhatsApp" width="26" height="26"
+                             style="display:block;margin:11px auto;"/>
+                      </a>
+                    </td>
+
+                    <!-- Instagram: circulo rosa escuro + icone branco linha via icons8 CDN -->
+                    <td style="padding:0 10px;">
+                      <a href="https://www.instagram.com/odontobymarya/" target="_blank"
+                         style="display:inline-block;width:48px;height:48px;background-color:#795465;border-radius:9999px;text-decoration:none;">
+                        <img src="https://img.icons8.com/ios/50/ffffff/instagram-new.png"
+                             alt="Instagram" width="26" height="26"
+                             style="display:block;margin:11px auto;"/>
+                      </a>
+                    </td>
+
+                  </tr>
+                </table>
+
+                <p id="faleConosco"
+                   style="font-family:'Manrope',Arial,sans-serif;font-size:13px;font-weight:600;color:#1e1b1c;margin:0 0 20px;">
+                  Fale conosco
+                </p>
+
+                <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:20px;">
+                  <tr>
+                    <td style="height:1px;background-color:#e2cdd0;font-size:0;line-height:0;">&nbsp;</td>
+                  </tr>
+                </table>
+
+                <p style="font-family:'Manrope',Arial,sans-serif;font-size:11px;color:#795465;line-height:1.8;margin:0 0 20px;">
+                  &copy; 2026 Estácio Do Recife. Todos direitos reservados.<br/>
+                  <span style="opacity:0.65;">Você está recebendo este e-mail por ser voluntário da Estácio Do Recife.</span>
+                </p>
+
+                <table cellpadding="0" cellspacing="0" border="0" style="margin:0 auto;">
+                  <tr>
+                    <td style="padding:0 12px;">
+                      <a href="#" style="font-family:'Manrope',Arial,sans-serif;font-size:11px;color:#78555e;text-decoration:none;">
+                        Politica de privacidade
+                      </a>
+                    </td>
+                    <td style="padding:0 12px;">
+                      <a href="#faleConosco" style="font-family:'Manrope',Arial,sans-serif;font-size:11px;color:#78555e;text-decoration:none;">
+                        Fale conosco
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+
+              </div>
+            </td>
+          </tr>
+
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
